@@ -1,2 +1,2 @@
 # playwright-sharp-contrib
-A Set of extensiones for PlawrightSharp 
+A set of extensions for PlawrightSharp 
