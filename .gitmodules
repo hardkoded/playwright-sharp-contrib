@@ -1,0 +1,3 @@
+[submodule "playwright-sharp"]
+	path = playwright-sharp
+	url = https://github.com/microsoft/playwright-sharp.git

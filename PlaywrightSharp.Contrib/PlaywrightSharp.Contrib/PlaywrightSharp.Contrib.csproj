@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<Title>PlaywrightSharp.Contrib</Title>
+		<PackageId>PlaywrightSharp.Contrib</PackageId>
+		<Summary>A Set of extensions for PlaywrightSharp.</Summary>
+		<Description>A Set of extensions for PlaywrightSharp.</Description>
+		<TargetFrameworks>netstandard2.0;net5.0</TargetFrameworks>
+		<DebugType>embedded</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<DocumentationFile>bin\$(Configuration)\netstandard2.0\PlaywrightSharp.Contrib.xml</DocumentationFile>
+		<RunWithWarnings>true</RunWithWarnings>
+		<StyleCopTreatErrorsAsWarnings>false</StyleCopTreatErrorsAsWarnings>
+		<CodeAnalysisRuleSet>../../playwright-sharp/src/PlaywrightSharp.ruleset</CodeAnalysisRuleSet>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+		<RootNamespace>PlaywrightSharp.Contrib</RootNamespace>
+		<BuildFromSource>True</BuildFromSource>
+		<AnalysisMode>AllEnabledByDefault</AnalysisMode>
+		<NoWarn>1701;1702;CS0067</NoWarn>
+	</PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\playwright-sharp\src\PlaywrightSharp\PlaywrightSharp.csproj" />
+	</ItemGroup>
+</Project>
