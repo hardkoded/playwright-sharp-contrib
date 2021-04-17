@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaywrightSharp.Contrib", "PlaywrightSharp.Contrib\PlaywrightSharp.Contrib.csproj", "{8E630F1C-8C74-4E46-990D-2BC92DCC351F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaywrightSharp", "..\playwright-sharp\src\PlaywrightSharp\PlaywrightSharp.csproj", "{F343DBC3-35B4-48AA-A3EA-E9170DB5356E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E630F1C-8C74-4E46-990D-2BC92DCC351F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E630F1C-8C74-4E46-990D-2BC92DCC351F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E630F1C-8C74-4E46-990D-2BC92DCC351F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E630F1C-8C74-4E46-990D-2BC92DCC351F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F343DBC3-35B4-48AA-A3EA-E9170DB5356E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F343DBC3-35B4-48AA-A3EA-E9170DB5356E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F343DBC3-35B4-48AA-A3EA-E9170DB5356E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F343DBC3-35B4-48AA-A3EA-E9170DB5356E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9F0EA54-30CB-4002-900F-05A08BC88E35}
+	EndGlobalSection
+EndGlobal
